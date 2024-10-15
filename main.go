@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"util/rand"
+	"github.com/yungchoyee/cutil/rand"
 )
 
 func main() {
