@@ -1,7 +1,11 @@
 package main
 
-import "util/ulog"
+import (
+	"fmt"
+	"util/rand"
+)
 
-func main(){
-	ulog.NewRR()
+func main() {
+	a := rand.GenerateUniqueID(1, 10)
+	fmt.Println(a)
 }
